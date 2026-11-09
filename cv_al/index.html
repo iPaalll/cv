@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Alfajria Safira Putri — Portfolio & CV</title>
+  <meta name="description"
+    content="Curriculum Vitae dan Portofolio Pribadi Alfajria Safira Putri — Web Developer & UI/UX Designer.">
+  <meta name="author" content="Alfajria Safira Putri">
+
+  <!-- Google Fonts: Plus Jakarta Sans & Playfair Display -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,500;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Floating Dreamy Ambient Orbs (Soft Pink & Lavender) -->
+  <div class="ambient-orb orb-1"></div>
+  <div class="ambient-orb orb-2"></div>
+  <div class="ambient-orb orb-3"></div>
+
+  <!-- ==================== FLOATING GLASS NAVBAR ==================== -->
+  <header class="navbar-wrapper" id="header">
+    <div class="container nav-container">
+      <div class="nav-glass-bar">
+        <!-- Brand Monogram -->
+        <a href="#home" class="nav-brand" aria-label="Beranda">
+          <span class="brand-avatar-pill">ASP</span>
+          <span class="brand-text">Alfajria <em>Safira Putri</em></span>
+        </a>
+
+        <!-- Desktop Navigation -->
+        <nav class="nav-menu" id="nav-menu" aria-label="Navigasi Utama">
+          <ul class="nav-links">
+            <li><a href="#home" class="nav-item active"><i class="fa-solid fa-sparkles"></i> Home</a></li>
+            <li><a href="#about" class="nav-item"><i class="fa-solid fa-heart"></i> About</a></li>
+            <li><a href="#education" class="nav-item"><i class="fa-solid fa-graduation-cap"></i> Education</a></li>
+            <li><a href="#skills" class="nav-item"><i class="fa-solid fa-wand-magic-sparkles"></i> Skills</a></li>
+            <li><a href="#contact" class="nav-item"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+          </ul>
+        </nav>
+
+        <!-- Navbar Quick Actions -->
+        <div class="nav-actions">
+          <button id="nav-download-cv-btn" class="btn-pill-rose" title="Unduh Curriculum Vitae">
+            <i class="fa-solid fa-arrow-down-to-line"></i>
+            <span>Resume</span>
+          </button>
+
+          <!-- Mobile Menu Button -->
+          <button class="mobile-toggle" id="nav-toggle" aria-label="Menu" aria-expanded="false">
+            <i class="fa-solid fa-bars-staggered"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==================== 1. HERO SECTION (SOFT ROSE AESTHETIC) ==================== -->
+    <section class="hero-section" id="home">
+      <div class="container">
+        <div class="hero-grid">
+
+          <!-- Sisi Kiri: Editorial Intro Teks -->
+          <div class="hero-intro">
+            <!-- Status Badge Manis -->
+            <div class="status-chip-rose">
+              <span class="pulse-sparkle">🌸</span>
+              <span class="status-text">Tersedia untuk Peluang Karir Baru</span>
+            </div>
+
+            <!-- Main Heading dengan Tipografi Elegan -->
+            <h1 class="hero-title">
+              Halo, Saya <br>
+              <span class="title-serif-highlight">Alfajria Safira Putri</span>
+            </h1>
+
+            <!-- Typing Subtitle -->
+            <div class="hero-role-wrapper">
+              <span class="role-prefix">Spesialisasi:</span>
+              <span class="typing-role-pink" id="typing-text">Frontend Web Developer</span>
+            </div>
+
+            <!-- Deskripsi Singkat Diri -->
+            <p class="hero-bio">
+              Seorang Web Developer berdedikasi tinggi dengan fokus pada pembuatan antarmuka web modern,
+              responsif, dan interaktif. Memiliki ketertarikan kuat dalam <em>clean code</em>, performa web tinggi,
+              serta pengalaman pengguna (UX) yang elegan.
+            </p>
+
+            <!-- Quick Info Badges -->
+            <div class="quick-chips-row">
+              <div class="chip-item">
+                <i class="fa-solid fa-location-dot"></i>
+                <span>Cimahi, ID</span>
+              </div>
+              <div class="chip-item">
+                <i class="fa-regular fa-clock"></i>
+                <span id="live-clock">--:-- WIB</span>
+              </div>
+              <div class="chip-item">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <span>SMK TI Garuda Nusantara</span>
+              </div>
+            </div>
+
+            <!-- Tombol Aksi Utama -->
+            <div class="hero-cta-buttons">
+              <button id="hero-download-cv-btn" class="btn-rose-solid">
+                <i class="fa-solid fa-file-pdf"></i>
+                <span>Download CV (PDF)</span>
+              </button>
+              <a href="#contact" class="btn-rose-glass">
+                <i class="fa-solid fa-paper-plane"></i>
+                <span>Hubungi Saya</span>
+              </a>
+              <a href="https://wa.me/6281323084749?text=Halo%20Alfajria,%20saya%20tertarik%20untuk%20berdiskusi."
+                target="_blank" rel="noopener noreferrer" class="btn-whatsapp-chic" title="Chat WhatsApp Langsung">
+                <i class="fa-brands fa-whatsapp"></i>
+                <span>WhatsApp</span>
+              </a>
+            </div>
+
+            <!-- Social Media Strip -->
+            <div class="hero-socials">
+              <span class="social-tag">Media Sosial:</span>
+              <div class="social-icons-bubble">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="bubble-btn"
+                  title="GitHub">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="bubble-btn"
+                  title="Instagram">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="bubble-btn"
+                  title="Twitter / X">
+                  <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="mailto:alfajria.gnc@gmail.com" class="bubble-btn" title="Kirim Email Langsung">
+                  <i class="fa-solid fa-envelope"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Sisi Kanan: Showcase Potret Estetik (Arched Portrait Glass) -->
+          <div class="hero-visual">
+            <div class="portrait-arch-wrap">
+              <!-- Glow Pink Aura -->
+              <div class="arch-glow-aura"></div>
+
+              <!-- Frame Potret Melengkung Estetik (Arch / Arched Top) -->
+              <div class="portrait-arch-frame">
+                <img src="assets/al.jpeg" onerror="this.onerror=null; this.src='assets/profile-placeholder.svg';"
+                  alt="Foto Profil Alfajria Safira Putri" class="portrait-img" id="profile-img">
+              </div>
+
+              <!-- Floating Micro Badge 1 -->
+              <div class="float-chip chip-left">
+                <div class="chip-icon-box pink-box">
+                  <i class="fa-solid fa-code"></i>
+                </div>
+                <div class="chip-text-group">
+                  <strong>2+ Tahun</strong>
+                  <span>Pengalaman Coding</span>
+                </div>
+              </div>
+
+              <!-- Floating Micro Badge 2 -->
+              <div class="float-chip chip-right">
+                <div class="chip-icon-box rose-box">
+                  <i class="fa-solid fa-circle-check"></i>
+                </div>
+                <div class="chip-text-group">
+                  <strong>15+ Proyek</strong>
+                  <span>Selesai & Berhasil</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 2. ABOUT ME (PASTEL BENTO GRID) ==================== -->
+    <section class="section-container" id="about">
+      <div class="container">
+        <!-- Section Title -->
+        <div class="section-title-wrap">
+          <span class="sub-badge-rose">✦ Mengenal Lebih Dekat</span>
+          <h2 class="main-heading">Tentang Saya</h2>
+          <p class="heading-sub">Mengenal karakter kerja, visi karier, serta dedikasi dalam rekayasa perangkat lunak.
+          </p>
+        </div>
+
+        <!-- Bento Grid Soft Rose -->
+        <div class="about-bento">
+
+          <!-- Bento Tile 1: Cerita & Nilai Diri (Spans 2 Kolom) -->
+          <div class="bento-tile bento-story">
+            <div class="tile-top-pill">
+              <span class="pill-chip"><i class="fa-solid fa-sparkles"></i> Filosofi & Nilai Kerja</span>
+              <span class="pill-tag">RPL & Web Dev</span>
+            </div>
+
+            <h3 class="story-title">
+              Membangun Solusi Digital yang Bermanfaat, Rapi, & Berorientasi Pengguna.
+            </h3>
+            <p class="story-p">
+              Saya adalah lulusan <strong>SMK TI GARUDA NUSANTARA</strong> dengan minat mendalam di bidang rekayasa web
+              frontend dan desain UI/UX.
+              Saya menikmati proses mentransformasikan gagasan konseptual menjadi antarmuka aplikasi web yang nyata,
+              intuitif, serta nyaman digunakan oleh siapapun.
+            </p>
+            <p class="story-p">
+              Dalam bekerja, saya mengedepankan komunikasi yang transparan, ketelitian terhadap detail, rasa ingin tahu
+              yang tinggi,
+              serta komitmen terhadap penulisan kode yang bersih dan mudah dirawat <em>(maintainable)</em>.
+              Saya sangat senang berkolaborasi dalam tim multidisiplin maupun bekerja secara mandiri dengan manajemen
+              waktu yang disiplin.
+            </p>
+
+            <div class="vision-quote-card">
+              <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+              <div class="quote-text">
+                <strong>Visi Karier:</strong> Berkontribusi secara aktif di tim engineering yang inovatif,
+                mengembangkan produk perangkat lunak berskala besar yang membawa dampak nyata, sembari terus memperdalam
+                kapabilitas teknologi modern.
+              </div>
+            </div>
+          </div>
+
+          <!-- Bento Tile 2: Info Data Ringkas -->
+          <div class="bento-tile bento-specs">
+            <div class="tile-top-pill">
+              <span class="pill-chip"><i class="fa-solid fa-address-card"></i> Ringkasan Profil</span>
+            </div>
+
+            <div class="specs-items-list">
+              <div class="spec-item">
+                <span class="spec-label"><i class="fa-solid fa-graduation-cap"></i> Pendidikan</span>
+                <span class="spec-val">SMK TI Garuda Nusantara</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label"><i class="fa-solid fa-map-pin"></i> Domisili</span>
+                <span class="spec-val">Cimahi, Indonesia</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label"><i class="fa-solid fa-language"></i> Bahasa</span>
+                <span class="spec-val">Indonesia (Native)</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label"><i class="fa-solid fa-layer-group"></i> Minat Utama</span>
+                <span class="spec-val">Web Development, UI/UX</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bento Tile 3: Karakter & Soft Attributes -->
+          <div class="bento-tile bento-traits-span">
+            <div class="traits-flex-wrap">
+              <div class="traits-header-col">
+                <h4 class="traits-title">Karakter Personal</h4>
+                <p class="traits-sub">Nilai-nilai kerja yang saya bawa dalam setiap proyek:</p>
+              </div>
+              <div class="traits-cloud">
+                <span class="trait-bubble"><i class="fa-solid fa-puzzle-piece"></i> Problem Solver</span>
+                <span class="trait-bubble"><i class="fa-solid fa-bolt"></i> Fast Learner</span>
+                <span class="trait-bubble"><i class="fa-solid fa-crosshairs"></i> Detail Oriented</span>
+                <span class="trait-bubble"><i class="fa-solid fa-arrows-rotate"></i> Adaptif</span>
+                <span class="trait-bubble"><i class="fa-solid fa-users"></i> Team Player</span>
+                <span class="trait-bubble"><i class="fa-solid fa-code"></i> Clean Code</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 3. EDUCATION SECTION ==================== -->
+    <section class="section-container bg-pastel-tint" id="education">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="sub-badge-rose">✦ Riwayat Akademis</span>
+          <h2 class="main-heading">Pendidikan</h2>
+          <p class="heading-sub">Fondasi akademis dan pembelajaran terstruktur yang membentuk kemampuan analisis serta
+            teknis saya.</p>
+        </div>
+
+        <div class="academic-center-wrap">
+          <!-- Main Academic Showcase Card -->
+          <div class="academic-rose-card">
+            <div class="academic-top-row">
+              <div class="academic-crest-icon">
+                <i class="fa-solid fa-building-columns"></i>
+              </div>
+
+              <div class="academic-title-box">
+                <span class="period-pill-rose">2024 — 2026</span>
+                <h3 class="academic-degree-name">Rekayasa Perangkat Lunak</h3>
+                <h4 class="academic-institution">SMK TI Garuda Nusantara</h4>
+              </div>
+            </div>
+
+            <div class="academic-body-row">
+              <p class="academic-narrative">
+                Menyelesaikan studi dengan fokus pada Rekayasa Perangkat Lunak dan Interaksi Manusia & Komputer.
+                Tugas Akhir: <em>"Pengembangan Aplikasi Web Manajemen Proyek Kolaboratif dengan Desain Responsif &
+                  Arsitektur Microservices"</em>.
+                Aktif sebagai asisten laboratorium pemrograman web dan peserta kompetisi kejuruan teknologi.
+              </p>
+
+              <div class="coursework-chips-grid">
+                <span class="coursework-pill"><i class="fa-solid fa-check"></i> Struktur Data & Algoritma</span>
+                <span class="coursework-pill"><i class="fa-solid fa-check"></i> Pemrograman Web</span>
+                <span class="coursework-pill"><i class="fa-solid fa-check"></i> Basis Data Terdistribusi</span>
+                <span class="coursework-pill"><i class="fa-solid fa-check"></i> UI/UX Design</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 4. SKILLS SECTION (PASTEL TECH MATRIX) ==================== -->
+    <section class="section-container" id="skills">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="sub-badge-rose">✦ Kompetensi & Keahlian</span>
+          <h2 class="main-heading">Keahlian (Skills)</h2>
+          <p class="heading-sub">Perpaduan penguasaan teknologi web modern dan kecakapan interpersonal dalam membangun
+            solusi terbaik.</p>
+        </div>
+
+        <div class="skills-two-col-grid">
+
+          <!-- HARD SKILLS (PASTEL CARDS) -->
+          <div class="skills-card-box">
+            <div class="card-box-header">
+              <div class="box-icon-gem"><i class="fa-solid fa-code"></i></div>
+              <div>
+                <h3 class="box-title">Hard Skills (Teknis)</h3>
+                <p class="box-sub">Teknologi, bahasa pemrograman, dan alat pengembangan yang saya kuasai.</p>
+              </div>
+            </div>
+
+            <div class="tech-tiles-container">
+              <!-- Tile 1: HTML -->
+              <div class="pastel-tech-tile">
+                <div class="tech-icon-circle html-tone"><i class="fa-brands fa-html5"></i></div>
+                <div class="tech-tile-texts">
+                  <span class="tech-name">HTML Web</span>
+                  <span class="tech-level-pill">Semantic Markup • 95%</span>
+                </div>
+              </div>
+
+              <!-- Tile 2: CSS -->
+              <div class="pastel-tech-tile">
+                <div class="tech-icon-circle css-tone"><i class="fa-brands fa-css3-alt"></i></div>
+                <div class="tech-tile-texts">
+                  <span class="tech-name">CSS, Grid & Animasi</span>
+                  <span class="tech-level-pill">Modern Layouts • 90%</span>
+                </div>
+              </div>
+
+              <!-- Tile 3: JS -->
+              <div class="pastel-tech-tile">
+                <div class="tech-icon-circle js-tone"><i class="fa-brands fa-js"></i></div>
+                <div class="tech-tile-texts">
+                  <span class="tech-name">JavaScript</span>
+                  <span class="tech-level-pill">ES6+ & DOM • 85%</span>
+                </div>
+              </div>
+
+              <!-- Tile 4: Responsive -->
+              <div class="pastel-tech-tile">
+                <div class="tech-icon-circle resp-tone"><i class="fa-solid fa-mobile-screen-button"></i></div>
+                <div class="tech-tile-texts">
+                  <span class="tech-name">Responsive & Mobile-First</span>
+                  <span class="tech-level-pill">Cross-Device • 92%</span>
+                </div>
+              </div>
+
+              <!-- Tile 5: Git -->
+              <div class="pastel-tech-tile">
+                <div class="tech-icon-circle git-tone"><i class="fa-brands fa-git-alt"></i></div>
+                <div class="tech-tile-texts">
+                  <span class="tech-name">Git & GitHub</span>
+                  <span class="tech-level-pill">Version Control • 65%</span>
+                </div>
+              </div>
+
+              <!-- Tile 6: Figma -->
+              <div class="pastel-tech-tile">
+                <div class="tech-icon-circle figma-tone"><i class="fa-brands fa-figma"></i></div>
+                <div class="tech-tile-texts">
+                  <span class="tech-name">UI/UX Prototyping</span>
+                  <span class="tech-level-pill">Figma Design • 80%</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Ecosystem & Tools Footer -->
+            <div class="ecosystem-rose-bar">
+              <span class="bar-tag-title">Alat & Teknologi Pendukung:</span>
+              <div class="tools-bubbles-wrap">
+                <span class="tool-bubble"><i class="fa-solid fa-terminal"></i> VS Code</span>
+                <span class="tool-bubble"><i class="fa-brands fa-chrome"></i> Chrome DevTools</span>
+                <span class="tool-bubble"><i class="fa-brands fa-bootstrap"></i> Bootstrap / Tailwind</span>
+                <span class="tool-bubble"><i class="fa-solid fa-rocket"></i> Anti Gravity</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- SOFT SKILLS -->
+          <div class="skills-card-box">
+            <div class="card-box-header">
+              <div class="box-icon-gem rose-gem"><i class="fa-solid fa-users-gear"></i></div>
+              <div>
+                <h3 class="box-title">Soft Skills (Interpersonal)</h3>
+                <p class="box-sub">Karakter dan kemampuan interpersonal yang mendukung kinerja tim profesional.</p>
+              </div>
+            </div>
+
+            <div class="soft-skills-cloud-list">
+              <div class="soft-chic-card">
+                <div class="chic-icon"><i class="fa-solid fa-comments"></i></div>
+                <div>
+                  <h4 class="chic-title">Komunikasi Efektif</h4>
+                  <p class="chic-desc">Menyampaikan ide teknis secara lugas, jelas, dan santun kepada tim teknis maupun
+                    non-teknis.</p>
+                </div>
+              </div>
+
+              <div class="soft-chic-card">
+                <div class="chic-icon"><i class="fa-solid fa-lightbulb"></i></div>
+                <div>
+                  <h4 class="chic-title">Problem Solving</h4>
+                  <p class="chic-desc">Pendekatan analitis dan solutif dalam mendiagnosis bug serta memecahkan kendala
+                    logika pemrograman.</p>
+                </div>
+              </div>
+
+              <div class="soft-chic-card">
+                <div class="chic-icon"><i class="fa-solid fa-people-group"></i></div>
+                <div>
+                  <h4 class="chic-title">Kolaborasi & Kerjasama</h4>
+                  <p class="chic-desc">Pengalaman bekerja harmonis dalam tim, terbuka terhadap kritik, saran, serta code
+                    review.</p>
+                </div>
+              </div>
+
+              <div class="soft-chic-card">
+                <div class="chic-icon"><i class="fa-solid fa-clock"></i></div>
+                <div>
+                  <h4 class="chic-title">Manajemen Waktu</h4>
+                  <p class="chic-desc">Disiplin dalam memprioritaskan tugas penting, mengelola alur kerja, dan
+                    menyelesaikan target tepat waktu.</p>
+                </div>
+              </div>
+
+              <div class="soft-chic-card">
+                <div class="chic-icon"><i class="fa-solid fa-arrows-spin"></i></div>
+                <div>
+                  <h4 class="chic-title">Adaptabilitas</h4>
+                  <p class="chic-desc">Cepat tanggap mempelajari teknologi, tools, atau alur kerja baru di dunia
+                    teknologi yang dinamis.</p>
+                </div>
+              </div>
+
+              <div class="soft-chic-card">
+                <div class="chic-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                <div>
+                  <h4 class="chic-title">Perhatian Pada Detail</h4>
+                  <p class="chic-desc">Ketelitian tinggi terhadap kerapian visual, kesesuaian piksel antarmuka, dan
+                    performa aplikasi.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 5. CONTACT SECTION (CHIC ROSE HUB) ==================== -->
+    <section class="section-container bg-pastel-tint" id="contact">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="sub-badge-rose">✦ Terhubung Bersama Saya</span>
+          <h2 class="main-heading">Kontak & Informasi</h2>
+          <p class="heading-sub">
+            Apakah Anda memiliki tawaran pekerjaan, ide kolaborasi proyek, atau sekadar ingin berdiskusi?
+            Jangan ragu untuk menghubungi saya!
+          </p>
+        </div>
+
+        <div class="contact-hub-grid">
+
+          <!-- Direct Channels Box -->
+          <div class="contact-card-glass">
+            <div class="hub-header-top">
+              <h3 class="hub-box-title">Saluran Komunikasi Langsung</h3>
+              <p class="hub-box-sub">Saya berusaha merespons pesan secara ramah dan profesional dalam waktu maksimal
+                1x24 jam.</p>
+            </div>
+
+            <div class="channel-rows-list">
+              <!-- Email Row -->
+              <div class="channel-chic-item">
+                <div class="channel-bubble-icon"><i class="fa-solid fa-envelope"></i></div>
+                <div class="channel-text-col">
+                  <span class="chic-label">Alamat Email</span>
+                  <a href="mailto:alfajria.gnc@gmail.com" class="chic-value" id="email-text">alfajria.gnc@gmail.com</a>
+                  <button class="btn-copy-rose" id="copy-email-btn" title="Salin Email">
+                    <i class="fa-regular fa-copy"></i> <span>Salin</span>
+                  </button>
+                </div>
+              </div>
+
+              <!-- WhatsApp Row -->
+              <div class="channel-chic-item">
+                <div class="channel-bubble-icon wa-bubble"><i class="fa-brands fa-whatsapp"></i></div>
+                <div class="channel-text-col">
+                  <span class="chic-label">WhatsApp Langsung</span>
+                  <a href="https://wa.me/6281323084749" target="_blank" rel="noopener noreferrer" class="chic-value">
+                    +62 813-2308-4749
+                  </a>
+                </div>
+              </div>
+
+              <!-- Location Row -->
+              <div class="channel-chic-item">
+                <div class="channel-bubble-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+                <div class="channel-text-col">
+                  <span class="chic-label">Domisili</span>
+                  <span class="chic-value">Cimahi, Bandung, Indonesia</span>
+                </div>
+              </div>
+
+              <!-- Status Row -->
+              <div class="channel-chic-item">
+                <div class="channel-bubble-icon status-bubble"><i class="fa-solid fa-sparkles"></i></div>
+                <div class="channel-text-col">
+                  <span class="chic-label">Status Ketersediaan</span>
+                  <span class="chic-status-live">
+                    <span class="sparkle-dot"></span> Terbuka untuk Full-Time, Remote & Magang
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Social Pills Strip -->
+            <div class="socials-chic-footer">
+              <span class="socials-label">Jejak Media Sosial:</span>
+              <div class="socials-bubble-row">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-pill-btn"
+                  title="GitHub">
+                  <i class="fa-brands fa-github"></i> <span>GitHub</span>
+                </a>
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-pill-btn"
+                  title="Instagram">
+                  <i class="fa-brands fa-instagram"></i> <span>Instagram</span>
+                </a>
+                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="social-pill-btn"
+                  title="Twitter / X">
+                  <i class="fa-brands fa-x-twitter"></i> <span>Twitter</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Message Form Card -->
+          <div class="contact-card-glass">
+            <div class="hub-header-top">
+              <h3 class="hub-box-title">Kirim Pesan Cepat</h3>
+              <p class="hub-box-sub">Gunakan formulir di bawah ini untuk mengirim pesan langsung kepada saya.</p>
+            </div>
+
+            <form id="contact-form" class="chic-contact-form" novalidate>
+              <div class="form-row-group">
+                <label for="form-name">Nama Lengkap <span class="rose-star">*</span></label>
+                <div class="chic-input-wrap">
+                  <i class="fa-regular fa-user chic-input-icon"></i>
+                  <input type="text" id="form-name" name="name" class="chic-input" placeholder="Masukkan nama Anda..."
+                    required>
+                </div>
+                <span class="chic-error" id="name-error"></span>
+              </div>
+
+              <div class="form-row-group">
+                <label for="form-email">Alamat Email <span class="rose-star">*</span></label>
+                <div class="chic-input-wrap">
+                  <i class="fa-regular fa-envelope chic-input-icon"></i>
+                  <input type="email" id="form-email" name="email" class="chic-input" placeholder="contoh@domain.com"
+                    required>
+                </div>
+                <span class="chic-error" id="email-error"></span>
+              </div>
+
+              <div class="form-row-group">
+                <label for="form-subject">Subjek Pesan <span class="rose-star">*</span></label>
+                <div class="chic-input-wrap">
+                  <i class="fa-solid fa-tag chic-input-icon"></i>
+                  <input type="text" id="form-subject" name="subject" class="chic-input"
+                    placeholder="Tawaran Kerja / Kerjasama / Pertanyaan" required>
+                </div>
+                <span class="chic-error" id="subject-error"></span>
+              </div>
+
+              <div class="form-row-group">
+                <label for="form-message">Pesan Anda <span class="rose-star">*</span></label>
+                <div class="chic-input-wrap">
+                  <i class="fa-regular fa-comment-dots chic-input-icon top-align-icon"></i>
+                  <textarea id="form-message" name="message" rows="4" class="chic-input chic-textarea"
+                    placeholder="Tuliskan pesan detail Anda di sini..." required></textarea>
+                </div>
+                <span class="chic-error" id="message-error"></span>
+              </div>
+
+              <button type="submit" class="btn-rose-solid btn-full-width" id="form-submit-btn">
+                <i class="fa-solid fa-paper-plane"></i>
+                <span>Kirim Pesan Sekarang</span>
+              </button>
+
+              <a href="https://wa.me/6281323084749?text=Halo%20Alfajria,%20saya%20melihat%20website%20CV%20Anda%20dan%20tertarik%20untuk%20berdiskusi."
+                target="_blank" rel="noopener noreferrer" class="btn-whatsapp-chic btn-full-width"
+                style="margin-top: 10px;">
+                <i class="fa-brands fa-whatsapp"></i>
+                <span>Chat Cepat via WhatsApp</span>
+              </a>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== CHIC FOOTER ==================== -->
+  <footer class="footer-rose">
+    <div class="container">
+      <div class="footer-top-grid">
+        <div class="footer-brand-col">
+          <div class="nav-brand footer-logo">
+            <span class="brand-avatar-pill">ASP</span>
+            <span class="brand-text">Alfajria <em>Safira Putri</em></span>
+          </div>
+          <p class="footer-blurb">
+            Curriculum Vitae & Personal Web Portfolio. Dibuat dengan clean code, dedikasi tinggi, dan perhatian pada
+            detail antarmuka pengguna.
+          </p>
+        </div>
+
+        <div class="footer-nav-col">
+          <span class="footer-col-title">Navigasi Halaman</span>
+          <ul class="footer-links-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-docs-col">
+          <span class="footer-col-title">Dokumen CV</span>
+          <ul class="footer-links-list">
+            <li><a href="javascript:void(0)" id="footer-download-cv"><i class="fa-solid fa-download"></i> Unduh Resume
+                (PDF)</a></li>
+            <li><a href="javascript:void(0)" id="footer-print-cv"><i class="fa-solid fa-print"></i> Cetak Lembar CV</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom-bar">
+        <p>&copy; <span id="current-year">2026</span> Alfajria Safira Putri. Seluruh hak cipta dilindungi.</p>
+        <p class="footer-badge-pill">🌸 Soft Pink Chic Portfolio</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== TOMBOL KEMBALI KE ATAS ==================== -->
+  <button id="back-to-top" class="back-to-top-rose" title="Kembali ke Bagian Atas" aria-label="Kembali ke Bagian Atas">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- ==================== MODAL DOWNLOAD CV ==================== -->
+  <div class="cv-modal-overlay" id="cv-modal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="cv-modal-box">
+      <button class="modal-close-btn" id="modal-close-btn" aria-label="Tutup Jendela Modal">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <div class="modal-header">
+        <div class="modal-icon-rose"><i class="fa-solid fa-file-pdf"></i></div>
+        <h3 class="modal-title">Unduh Curriculum Vitae</h3>
+        <p class="modal-subtitle">Pilih format pengunduhan atau pencetakan CV:</p>
+      </div>
+
+      <div class="modal-options">
+        <button class="modal-option-card" id="option-print-pdf">
+          <div class="option-icon-wrap"><i class="fa-solid fa-print"></i></div>
+          <div class="option-text-group">
+            <h4>Cetak / Simpan ke PDF</h4>
+            <p>Memformat seluruh halaman web CV ini menjadi lembar dokumen PDF rapi standar lamaran kerja.</p>
+          </div>
+          <i class="fa-solid fa-arrow-right option-arrow"></i>
+        </button>
+
+        <a href="assets/sample-cv.pdf" download="CV_Alfajria.pdf" class="modal-option-card" id="option-download-file">
+          <div class="option-icon-wrap"><i class="fa-solid fa-download"></i></div>
+          <div class="option-text-group">
+            <h4>Unduh Berkas PDF Siap Pakai</h4>
+            <p>Mengunduh file PDF CV yang telah Anda siapkan di folder dokumen.</p>
+          </div>
+          <i class="fa-solid fa-arrow-right option-arrow"></i>
+        </a>
+      </div>
+
+      <div class="modal-footer-note">
+        <i class="fa-solid fa-circle-info"></i>
+        <span>Tips: Gunakan opsi "Cetak / Simpan ke PDF" untuk hasil langsung yang sinkron dengan isi web ini!</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toast-container" aria-live="polite"></div>
+
+  <!-- Custom JavaScript -->
+  <script src="script.js"></script>
+</body>
+
+</html>
